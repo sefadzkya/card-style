@@ -1,0 +1,210 @@
+body{
+    background: url(images/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.navbar{
+    position: relative;
+}
+.navbar-logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+} 
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top:100px;
+    background-color: transparent;
+    
+}
+
+.container_img {
+    position: absolute;
+    top:10%;
+    left: 2%;
+}
+.container_img img{
+    width: 600px;
+    height: 400px;
+}
+
+.container-text{
+display: flex;
+width: 500px;
+height: 400px;
+position: absolute;
+top: 10%;
+right: 5%;
+font-family: 'Poppins', sans-serif;
+}
+
+.container-text span{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    left: 10%;
+    line-height: 30px;
+    
+}
+
+.container-text p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: left;
+    top: 10%;
+    left: 10%;
+    line-height: 20px;
+    margin-top: 12%;
+}
+.container-buton{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+}
+.container-buton .buton{
+    padding:10px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    color: rgb(165, 21, 223);
+    border: 1px solid gray;
+    box-shadow: 5px 5px 15px 0.5px black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.buton:hover{
+    background-color:rgb(165, 21, 223);
+    color:rgb(236, 236, 236);
+    transform: scale(1.1);
+}
+.container-bottom{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    display: flex;
+    column-gap: 20px;
+}
+.container-bottom img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media(max-width:1920px){
+    .container_img {
+        position: absolute;
+        top:10%;
+        left: 30%;}
+
+
+    .container_img img{
+        width: 800px;
+        height: 600px;
+    }
+
+    .container-text{
+        top: 75%;
+        left: 35%;
+        width: 500px;
+        height: 400px;
+       
+        
+    }
+    .container-text span{
+        text-align: center;
+        font-size: 33px;
+    }
+    .container-text p{
+        text-align: center;
+        font-size: 16px;
+        left: 0%;
+        
+    }
+    .container-buton{
+        top: 60%;
+        left: 35%;
+    }
+    
+    .container-bottom{
+        bottom: -13%;
+        left: 45%;
+        
+    }
+  
+    .container-buton .buton{
+        padding:15px;
+        width: 150px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(236, 236, 236);
+        color: rgb(165, 21, 223);
+        border: 1px solid gray;
+        box-shadow: 5px 5px 15px 0.5px black;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        font-size: 20px;
+    }
+    
+    .buton:hover{
+        background-color:rgb(165, 21, 223);
+        color:rgb(236, 236, 236);
+        transform: scale(1.1);}
+}
+
+
+
+
+@media(max-width:1143px){
+
+
+    .container_img {
+        position: absolute;
+        top:10%;
+        left: 0;}
+        
+    .container-text{
+        top: 60%;
+        left: 0;
+        width: 400px;
+        height: 400px;
+       
+        
+    }
+    .container-text span{
+        text-align: center;
+    }
+    .container-text p{
+        text-align: center;
+        left: 0;
+        
+    }
+    .container-buton{
+        top: 55%;
+        left: 30%;
+    }
+    .container-bottom{
+        bottom: -10%;
+        left: 30%;
+        
+    }
+    .container_img img{
+        width: 400px;
+        height: 300px;
+    }
+  
+}
+
